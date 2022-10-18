@@ -70,7 +70,8 @@ const Compliment = () => {
               Welcome to the Compliment Generator!
             </p>
             <p className="text-2xl font-bold text-gray-700 py-10">
-              You have to sign in if you want me to try to make you happy.
+              You have to sign in if you want me to try to make you happy. Click
+              "Login" in the top right corner.
             </p>
           </>
         )}
