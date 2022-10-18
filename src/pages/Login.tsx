@@ -9,7 +9,7 @@ const Login = () => {
     signInWithPopup(auth, googleProvider)
       .then((result) => {
         console.log(result);
-        navigate("/");
+        navigate("/compliment");
       })
       .catch((error) => {
         console.log(error);

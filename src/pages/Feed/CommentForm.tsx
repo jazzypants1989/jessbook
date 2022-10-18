@@ -49,7 +49,7 @@ export const CommentForm = (props: any) => {
     <div className="flex flex-col">
       <form onSubmit={handleSubmit(onSubmit)}>
         <div className="flex flex-col">
-          <label htmlFor="body">Body</label>
+          <label htmlFor="body">Gimme 2 cents</label>
           <input
             type="text"
             {...register("body")}
@@ -65,7 +65,7 @@ export const CommentForm = (props: any) => {
           type="submit"
           className="bg-blue-500 text-white rounded-md p-2 m-2 hover:bg-blue-800"
         >
-          Submit
+          Gimme
         </button>
       </form>
     </div>

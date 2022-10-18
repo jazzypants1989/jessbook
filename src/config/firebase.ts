@@ -7,7 +7,12 @@ import { getFirestore } from "firebase/firestore";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  *
+  apiKey: process.env.REACT_APP_API_KEY,
+  authDomain: "jessbook-bf980.firebaseapp.com",
+  projectId: "jessbook-bf980",
+  storageBucket: "jessbook-bf980.appspot.com",
+  messagingSenderId: "307179085453",
+  appId: "1:307179085453:web:d6e044b277d3b37d98ccc4",
 };
 
 // Initialize Firebase

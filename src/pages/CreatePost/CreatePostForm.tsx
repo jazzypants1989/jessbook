@@ -58,7 +58,7 @@ const CreatePostForm = () => {
         <p className="text-red-500 font-extrabold animate-pulse">
           {errors.title?.message}
         </p>
-        <label htmlFor="description">Description</label>
+        <label htmlFor="description">Whatchu Gotta Say?</label>
         <textarea
           className="border-2 border-gray-300 p-2 text-sm w-full rounded-lg m-2"
           id="description"
@@ -71,7 +71,7 @@ const CreatePostForm = () => {
           className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded m-2"
           type="submit"
         >
-          Submit
+          Blabber on, brother
         </button>
       </div>
     </form>
